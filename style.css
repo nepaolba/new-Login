@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap');@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500;600;700;800&display=swap');
+/*@import url('https://fonts.googleapis.com/css2?family=Rancho&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800;900&display=swap');*/
+body {
+ font-family: 'Rubik', sans-serif;
+}
+/* body::after {
+  content: "";
+  display: block;
+  background-image: url("https://img.freepik.com/premium-vector/colorful-round-modern-background-vector_53876-161583.jpg?w=826");
+  top: 0;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  object-fit: cover;
+} */
+
+.img-login {
+  background-size: cover;
+  width: 100%;
+  min-height: 100%;
+  object-fit: cover;
+  background-position: center;
+}
+.card {
+  border: 0;
+  box-shadow: 0 0 5px 1px grey;
+  position: relative;
+  z-index: 1;
+}
+.form-control {
+  font-size: 12px;
+  height: 42px;
+  /*border-left: 3px solid #326fbe;*/
+  border-radius: 18px;
+ box-shadow: 0 0 0 0.15rem rgb(85 77 132);
+
+}
+.form-control:focus{
+  box-shadow: 0 0 0 0.25rem rgb(85 77 132) !important;
+}
+.btn {
+  height: 42px;
+  border: 2px solid #601a23;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.7);
+  border-radius: 38px;
+  letter-spacing: 2px;
+  /*transition: 2s;*/
+}
+
+.btn-gradient {
+  background: linear-gradient(to right, #e26054, #cf264d); 
+  color: #fff;
+  transition: .2s
+}
+.btn-gradient:hover{
+  background: linear-gradient(to right, #cf264d, #e26054); 
+}
+label {
+  font-size: 13px;
+  font-weight: 500;
+  margin-left: 10px;
+  text-transform: uppercase;
+}
+.form-label {
+  position: absolute;
+  margin-top: -10px;
+  color: #554d84;
+  padding: 0 5px 0 5px;
+  background-color: #fff;
+
+}
+.title{
+   display: flex;
+  margin-left: 1rem;
+  margin-top: -24rem;
+   position: absolute;
+   flex-direction: column;
+   text-align: center;  
+   text-shadow: 1px 1px 1px gery;
+}
+.text-title{  
+  font-weight: 400;
+  font-size: 26px !important;
+  letter-spacing: 1px;
+  /*margin-top: -30px;*/
+}
+.sub-title{
+  /*color: ;*/
+  font-weight: 100;
+   /*margin-top: -10px;*/
+   letter-spacing: 1px;
+  font-size: 15px;
+  text-transform: uppercase;
+  /*font-family: "Rancho", cursive;*/
+}
+.border{
+  width: 20%;
+  justify-content: center;
+  margin: auto;
+  height: 5px;
+  border-radius: 18px;
+  background-color: white;
+  border: 0 !important;
+  margin-top: 10px;
+}
+.ident{
+  margin-top: 16rem;
+   font-size: 15px;
+}
+
+@media (min-width: 992px) {
+.text-title{  
+  font-weight: 400;
+  font-size: 26px !important;
+  letter-spacing: 1px;
+
+}
+}
